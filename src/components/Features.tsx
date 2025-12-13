@@ -70,14 +70,14 @@ const Features: React.FC = () => {
                             </div>
                         </ScrollReveal>
 
-                        {/* Card 2: Amarelo (Primary Color) */}
+                        {/* Card 2: Vermelho (Primary Color) */}
                         <ScrollReveal delay={0.2} className="flex-1">
                             <div className="h-full bg-primary rounded-[32px] p-8 flex flex-col justify-between relative overflow-hidden">
                                 <div>
-                                    <h3 className="font-grotesk font-bold text-2xl md:text-3xl text-black uppercase leading-none mb-2">
+                                    <h3 className="font-grotesk font-bold text-2xl md:text-3xl text-white uppercase leading-none mb-2">
                                         {cards.card2.title}
                                     </h3>
-                                    <p className="font-grotesk font-bold text-black/70 text-sm uppercase">
+                                    <p className="font-grotesk font-bold text-white text-sm uppercase">
                                         {cards.card2.subtitle}
                                     </p>
                                 </div>
@@ -87,7 +87,7 @@ const Features: React.FC = () => {
                                         <div className="w-4 h-4 bg-black rounded-sm transform rotate-45" />
                                     </div>
                                     <div className="flex flex-col items-end">
-                                        <span className="font-grotesk font-bold text-black uppercase text-sm">
+                                        <span className="font-grotesk font-bold text-white uppercase text-sm">
                                             {infos.name} {cards.card2.suffix}
                                         </span>
                                     </div>

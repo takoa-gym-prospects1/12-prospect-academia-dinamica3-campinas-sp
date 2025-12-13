@@ -35,7 +35,7 @@ export const content: ContentConfig = {
     // 1. CORES DO TEMA
     // ==================================================================================
     colors: {
-        primary: '#ff4d4dff',     // Vermelho vibrante (cor principal)
+        primary: '#ff0000ff',     // Vermelho vibrante (cor principal)
         primaryDark: '#ffbd37',   // Amarelo escuro (hover)
         secondary: '#171717',     // Preto neutro
         background: '#ffffff',    // Branco
@@ -61,7 +61,7 @@ export const content: ContentConfig = {
         description: "Onde atletas são formados. Treinamento de elite com treinadores certificados e instalações de ponta.",
         domain: "https://academiadinamica2.netlify.app",
         path: "/",
-        themeColor: "#ff4d4dff",
+        themeColor: "#ff0000ff",
         keywords: "academia, treinamento atlético, personal trainer, crossfit, atletas, fitness, musculação, treino funcional",
         og: {
             title: "Academia Dinâmica - A Melhor e Mais Completa da Região",
