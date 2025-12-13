@@ -413,7 +413,7 @@ export const content: ContentConfig = {
     // ==================================================================================
     footer: {
         enabled: true,
-        description: "Athlo é mais do que uma academia. É uma comunidade de atletas dedicados a superar limites e alcançar a melhor versão de si mesmos.",
+        description: "É mais do que uma academia. É uma comunidade de pessoas dedicadas a superar limites e alcançar a melhor versão de si mesmas.",
         socialLinks: {
             instagram: "https://instagram.com/ctdinamica",
             facebook: "https://facebook.com/academiadinamicacampinas",
