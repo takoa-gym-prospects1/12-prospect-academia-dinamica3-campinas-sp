@@ -38,6 +38,24 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Mobile: Desabilita smooth scroll para melhor performance com animações */
+@media (max-width: 768px) {
+  html {
+    scroll-behavior: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Remove delays de touch para melhor responsividade */
+  * {
+    touch-action: manipulation;
+  }
+  
+  /* Força navegador a não manter elementos em composite layers */
+  * {
+    will-change: auto !important;
+  }
+}
+
 body {
   font-family: var(--font-inter);
   background-color: var(--color-background);
